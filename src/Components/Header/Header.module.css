@@ -1,0 +1,35 @@
+.header {
+  background-color: var(--primary);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
+  height: 3rem;
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+.header h2 {
+  color: var(--white);
+  font-size: 1.5rem;
+  font-weight: 900;
+}
+.header li {
+  display: inline-block;
+  margin: 0 0.5rem;
+
+}
+.header li a {
+  color: #ccd6fa;
+  font-size: 1.1rem;
+  font-weight: 600;
+  border-radius: 0.5rem;
+  background: var(--primary);
+  padding: 0.5rem 1rem;
+  position: relative;
+  z-index: 1;
+}
+.header li a:hover {
+  background: var(--secondary);
+  color: var(--white);
+}

@@ -1,0 +1,25 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: calc(100vh - 3rem);
+  width: 90vw;
+  margin: auto;
+}
+
+.login h1 {
+  font-size: 1.8rem;
+  font-weight: 900;
+  margin-bottom: 2rem;
+}
+
+.fixWidth {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.inline {
+  display: inline;
+}
